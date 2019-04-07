@@ -1,0 +1,38 @@
+text{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:11px;
+    pointer-events:none;
+}
+#chart{
+
+    width:500px;
+    height:500px;
+    top:0;
+    left:0;
+}
+.forpo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 97vh;
+}
+#question{
+
+    width:400px;
+    height:500px;
+    top:0;
+    left:520px;
+}
+#question h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    padding: 0;
+    top: 42%;
+    left: 59%;
+    margin:0;
+    -webkit-transform:translate(0,-50%);
+    transform:translate(0,-50%);
+}
